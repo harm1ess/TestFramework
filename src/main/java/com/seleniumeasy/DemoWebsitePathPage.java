@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class JavaPathPage extends PathPage{
+public class DemoWebsitePathPage extends PathPage{
 
     @FindBy(how = How.CSS, using = "#home > h3 > span")
     WebElement pageElement;

@@ -12,7 +12,7 @@ public class PathPages {
     public PathPage getPathPage(String page) {
         switch (page) {
             case "Demo":
-                return Pages.javaPathPage();
+                return Pages.demoWebsitePathPage();
         }
 
         return null;

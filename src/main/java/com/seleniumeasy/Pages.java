@@ -13,9 +13,9 @@ public class Pages {
         return pathPages;
     }
 
-    public static PathPage javaPathPage() {
-        PathPage javaPathPage = new JavaPathPage();
-        PageFactory.initElements(Browser.driver, javaPathPage);
-        return javaPathPage;
+    public static PathPage demoWebsitePathPage() {
+        PathPage demoWebsitePathPage = new DemoWebsitePathPage();
+        PageFactory.initElements(Browser.driver, demoWebsitePathPage);
+        return demoWebsitePathPage;
     }
 }
