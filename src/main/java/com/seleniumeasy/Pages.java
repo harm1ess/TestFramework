@@ -18,4 +18,10 @@ public class Pages {
         PageFactory.initElements(Browser.driver, demoWebsitePathPage);
         return demoWebsitePathPage;
     }
+
+    public static PathPage radioButtonPathPage() {
+        PathPage radioButtonPathPage = new RadioButtonPathPage();
+        PageFactory.initElements(Browser.driver, radioButtonPathPage);
+        return radioButtonPathPage;
+    }
 }
