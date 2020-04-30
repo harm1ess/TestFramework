@@ -2,7 +2,7 @@ package com.seleniumeasy;
 
 public class PathPages {
 
-    static String url = "https://www.seleniumeasy.com/test";
+    static String url = "https://www.seleniumeasy.com";
     //static String title = "Selenium Easy - Best Demo website to practice Selenium Webdriver Online";
 
     public void goTo() {
